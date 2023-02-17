@@ -68,7 +68,7 @@ export default function Header() {
     ]
 
     return (
-        <Navbar bg="light" expand="lg">
+        <Navbar bg="light" expand="lg" className="mb-30">
             <Container>
                 <Navbar.Brand href="/">XOR</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />

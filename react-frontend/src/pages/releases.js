@@ -105,10 +105,12 @@ export default function Releases() {
     ]
 
     return (
-        <div>
-            {
-                albums.map((album) => <Album key={album.title} album={album} />)
-            }         
+        <div className="container">
+            <div className="row">
+                {
+                    albums.map((album) => <Album key={album.title} album={album} />)
+                } 
+            </div>    
         </div>
     )
 } 

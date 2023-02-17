@@ -33,17 +33,21 @@ export default function Covers() {
     ]
 
     return (
-        <div>
-            <div>
-                <p>
-                I made a goal for 2021 to record a cover song each month. After 3 months, 
-                it stopped being fun and felt more like a chore. I might pick this back up at some point.
-                </p>
+        <div className="container">
+            <div className="row">
+                <div className="col">
+                    <p>
+                    I made a goal for 2021 to record a cover song each month. After 3 months, 
+                    it stopped being fun and felt more like a chore. I might pick this back up at some point.
+                    </p>
+                </div>
             </div>
-            {
-                covers.map((cover) => <Album key={cover.title} album={cover} />)
-            }
             
+            <div className="row">
+                {
+                    covers.map((cover) => <Album key={cover.title} album={cover} />)
+                }
+            </div>
         </div>
     )
 } 

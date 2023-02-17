@@ -272,12 +272,31 @@ html, body {
   .pt-20 {
     padding-top: 20;
   }
+
+  .album {
+
+  }
+
+  .album-art {
+    max-width: 100%;
+  }
+
+  .album-description {
+    /* height: 40px; */
+  }
+
+  .album-embed {
+    /* max-width: 300px; */
+  }
+
+  .album-title {
+    font-size: 1.2em;
+  }
   
   .script {
     background-color: black;
     padding: 10px;
   }
-  
   
   .syntax {
     color: #289de3;

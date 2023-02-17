@@ -16,7 +16,7 @@ export default function Remixes() {
             title:        "Orkney",
             release_date: "August 5, 2022",
             info:         "by Apparitioner",
-            image_url:    "",
+            image_url:    "https://i.scdn.co/image/ab67616d0000b2730da1da0b595e8738a19cd164",
             html:         ``,
             bandcamp:     "",
             spotify:      "https://open.spotify.com/album/2fY5Q4aZnAp7iipGgE7eTq?si=UBR1g2STTIG6QI77u5Isvg"
@@ -78,11 +78,12 @@ export default function Remixes() {
     ]
 
     return (
-        <div>
-            {
-                remixes.map((remix) => <Album key={remix.title} album={remix} />)
-            }
-            
+        <div className="container">
+            <div className="row">
+                {
+                    remixes.map((remix) => <Album key={remix.title} album={remix} />)
+                }
+            </div>
         </div>
     )
 } 
