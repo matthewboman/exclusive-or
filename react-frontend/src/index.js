@@ -20,6 +20,8 @@ import Header       from "./components/header.js"
 
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './css/index.css'
+import './css/inputs.css'
+import './css/keyboard.css'
 
 const App = () => (
     <div>
