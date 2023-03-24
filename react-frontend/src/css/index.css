@@ -292,6 +292,10 @@ html, body {
   .album-title {
     font-size: 1.2em;
   }
+
+  .photo {
+    max-width: 100%;
+  }
   
   .script {
     background-color: black;

@@ -16,7 +16,7 @@ export default function Album({ album }) {
                 <img className="album-art mb-10" src={ album.image_url } />
                 <div class="album-embed" dangerouslySetInnerHTML={{ __html: album.html || null }} />
                 <div className="album-description mb-10">{ album.info }</div>
-                <Link link={ album.bandcamp} pre="By on " text="Bandcamp" />
+                <Link link={ album.bandcamp} pre="Buy on " text="Bandcamp" />
                 <Link link={ album.spotify } pre="Listen on " text="Spotify" />
             </div>
         </div>

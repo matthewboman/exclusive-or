@@ -40,31 +40,31 @@ export default function Header() {
                 }
             ]
         },
-        {
-            title: "Machines",
-            links: [
-                {
-                    title: "Slow Learner",
-                    url:   "/slow-learner"
-                },
-                {
-                    title: "Generative 1",
-                    url:   "/generative-1"
-                },
-                {
-                    title: "Joystick",
-                    url:   "/joystick"
-                }
+        // {
+        //     title: "Machines",
+        //     links: [
+        //         {
+        //             title: "Slow Learner",
+        //             url:   "/slow-learner"
+        //         },
+        //         {
+        //             title: "Generative 1",
+        //             url:   "/generative-1"
+        //         },
+        //         {
+        //             title: "Joystick",
+        //             url:   "/joystick"
+        //         }
     
-            ]
-        }
+        //     ]
+        // }
     ]
     
     const links = [
-        {
-            title: "Bio",
-            url:   "/bio"
-        }
+        // {
+        //     title: "Bio",
+        //     url:   "/bio"
+        // }
     ]
 
     return (

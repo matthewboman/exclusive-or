@@ -21,15 +21,15 @@ export default function Releases() {
         //     bandcamp:     "https://xoravl.bandcamp.com/album/beyond-the-tall-trees-somewhere",
         //     spotify:      ""
         // },
-        // {
-        //     title:        "On the spot",
-        //     release_date: "March 20, 2023",
-        //     info:         "Modular piece written for Ashevile's Modular on the Spot, September 2022.",
-        //     image_url:    "",
-        //     html:         "",
-        //     bandcamp:     "https://xoravl.bandcamp.com/album/on-the-spot",
-        //     spotify:      ""
-        // },
+        {
+            title:        "On the spot",
+            release_date: "March 20, 2023",
+            info:         "Modular piece written for Ashevile's Modular on the Spot, September 2022.",
+            image_url:    "https://f4.bcbits.com/img/a2025630180_10.jpg",
+            html:         `<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=417905674/size=small/bgcol=333333/linkcol=e99708/transparent=true/" seamless><a href="https://xoravl.bandcamp.com/album/on-the-spot">on the spot by xor</a></iframe>`,
+            bandcamp:     "https://xoravl.bandcamp.com/album/on-the-spot",
+            spotify:      ""
+        },
         {
             title:        "Ephemeral tracks, vol. 1",
             release_date: "March 18, 2022",

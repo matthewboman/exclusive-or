@@ -38,7 +38,7 @@ const router = createBrowserRouter([
         errorElement: <ErrorPage />,
         children: [
             {
-                path:    "/bio",
+                path:    "/",
                 element: <Bio />
             },
             {
@@ -49,14 +49,14 @@ const router = createBrowserRouter([
                 path:    "/covers",
                 element: <Covers />
             },
-            {
-                path:    "/generative-1",
-                element: <Generative1 />
-            },
-            {
-                path:    "/joystick",
-                element: <Joystick />
-            },
+            // {
+            //     path:    "/generative-1",
+            //     element: <Generative1 />
+            // },
+            // {
+            //     path:    "/joystick",
+            //     element: <Joystick />
+            // },
             {
                 path:    "/releases",
                 element: <Releases />
@@ -65,10 +65,10 @@ const router = createBrowserRouter([
                 path:    "/remixes",
                 element: <Remixes />
             },
-            {
-                path:    "/slow-learner",
-                element: <SlowLearner />
-            }
+            // {
+            //     path:    "/slow-learner",
+            //     element: <SlowLearner />
+            // }
         ]
     }
 ])
