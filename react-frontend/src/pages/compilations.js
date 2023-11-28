@@ -13,6 +13,15 @@ export default function Compilations() {
         //     spotify:      ""
         // },
         {
+            title:        "Long Blue Drive",
+            release_date: "May 22, 2022",
+            info:         "Collaboration with Nesting Doll",
+            image_url:    "https://f4.bcbits.com/img/a2790042956_16.jpg",
+            html:         `<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=4189595960/size=small/bgcol=333333/linkcol=e99708/track=1231039156/transparent=true/" seamless><a href="https://brokensoundtapes.bandcamp.com/album/unearthd-volume-ii">UNEARTH&#39;D Volume II by XOR (featuring Nesting Doll)</a></iframe>`,
+            bandcamp:     "https://brokensoundtapes.bandcamp.com/album/unearthd-volume-ii",
+            spotify:      ""
+        },
+        {
             title:        "Growing",
             release_date: "February 14, 2022",
             info:         "Written for Modular on the Mall's 'Rest in Patch: A Tribute to Patch Node'",
@@ -30,7 +39,7 @@ export default function Compilations() {
             bandcamp:     "https://copyright420.bandcamp.com/album/korg-electribe-showcase-disc-1",
             spotify:      ""
         }
-    ]
+    ] 
 
     return (
         <div className="container">
