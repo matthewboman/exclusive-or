@@ -3,24 +3,24 @@ import Album from "../components/album.js"
 export default function Releases() {
 
     const albums = [
-        // {
-        //     title:        "Ephemeral tracks, vol. 2",
-        //     release_date: "June 9, 2023",
-        //     info:         "",
-        //     image_url:    "",
-        //     html:         "",
-        //     bandcamp:     "",
-        //     spotify:      ""
-        // },
-        // {
-        //     title:        "Beyond the tall trees somewhere",
-        //     release_date: "April 28, 2023",
-        //     info:         "",
-        //     image_url:    "",
-        //     html:         "",
-        //     bandcamp:     "https://xoravl.bandcamp.com/album/beyond-the-tall-trees-somewhere",
-        //     spotify:      ""
-        // },
+        {
+            title:        "Ephemeral tracks, vol. 2",
+            release_date: "June 9, 2023",
+            info:         "Ambient, drone, and downtempo tracks. Written and recorded ad Bannik Knob.",
+            image_url:    "https://f4.bcbits.com/img/a2256821936_16.jpg",
+            html:         `<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=3922441199/size=small/bgcol=333333/linkcol=e99708/transparent=true/" seamless><a href="https://xoravl.bandcamp.com/album/ephemeral-tracks-vol-2">Ephemeral Tracks, vol. 2 by xor</a></iframe>`,
+            bandcamp:     "https://xoravl.bandcamp.com/album/ephemeral-tracks-vol-2",
+            spotify:      "https://open.spotify.com/album/3hW6Vh5f1b050IzZSkK2fy?si=h-Q1S2DzRF2OfXX3IkCLmw"
+        },
+        {
+            title:        "beyond the tall trees somewhere",
+            release_date: "April 28, 2023",
+            info:         "5 song synthpop/darkwave EP. Mixed and mastered by Adam McDaniel at Drop of Sun",
+            image_url:    "https://f4.bcbits.com/img/a2092478654_16.jpg",
+            html:         `<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=1160131690/size=small/bgcol=333333/linkcol=e99708/transparent=true/" seamless><a href="https://xoravl.bandcamp.com/album/beyond-the-tall-trees-somewhere">beyond the tall trees somewhere by xor</a></iframe>`,
+            bandcamp:     "https://xoravl.bandcamp.com/album/beyond-the-tall-trees-somewhere",
+            spotify:      "https://open.spotify.com/album/3PBApVdacFrKqR15NjU7k9?si=8krnITUNSqONS8ebjtek0g"
+        },
         {
             title:        "On the spot",
             release_date: "March 20, 2023",
@@ -51,7 +51,7 @@ export default function Releases() {
         {
             title:        "XOR",
             release_date: "July 30, 2021",
-            info:         "10 song Darkwave album written and recorded during quarantine. Mastered by Bryan Walthall.",
+            info:         "10 song darkwave/synthpop album written and recorded during quarantine. Mastered by Bryan Walthall.",
             image_url:    "https://f4.bcbits.com/img/a2868734555_10.jpg",
             html:         `<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=922305637/size=small/bgcol=333333/linkcol=e99708/transparent=true/" seamless><a href="https://xoravl.bandcamp.com/album/xor">XOR by xor</a></iframe>`,
             bandcamp:     "https://xoravl.bandcamp.com/album/xor",

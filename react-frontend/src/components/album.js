@@ -3,7 +3,7 @@ const Link = ({ link, text, pre }) => {
 
     return (
         <div>
-            { pre }<a href={ link } target="_blank">{ text }</a>
+            { pre }<a href={ link } target="_blank" class="link">{ text }</a>
         </div>
     )
 }

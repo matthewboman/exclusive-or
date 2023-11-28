@@ -12,6 +12,33 @@ export default function Remixes() {
         //     bandcamp:     "",
         //     spotify:      ""
         // },
+        // {
+        //     title:        "Love is Surrender",
+        //     release_date: "",
+        //     info:         "by Vexagon",
+        //     image_url:    "",
+        //     html:         ``,
+        //     bandcamp:     "",
+        //     spotify:      ""
+        // },
+        // {
+        //     title:        "Mercy",
+        //     release_date: "",
+        //     info:         "by Bleached Cross",
+        //     image_url:    "",
+        //     html:         ``,
+        //     bandcamp:     "",
+        //     spotify:      ""
+        // },
+        // {
+        //     title:        "Ours",
+        //     release_date: "",
+        //     info:         "by Shadow Age",
+        //     image_url:    "",
+        //     html:         ``,
+        //     bandcamp:     "",
+        //     spotify:      ""
+        // },
         {
             title:        "Orkney",
             release_date: "August 5, 2022",
@@ -47,6 +74,15 @@ export default function Remixes() {
             html:         `<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=1525251721/size=small/bgcol=333333/linkcol=e99708/track=302830159/transparent=true/" seamless><a href="https://xoravl.bandcamp.com/album/xor-cold-choir-re-mixes">xor / cold choir - re.mixes by xor</a></iframe>`,
             bandcamp:     "https://xoravl.bandcamp.com/album/xor-cold-choir-re-mixes",
             spotify:      "https://open.spotify.com/album/5Vc0n69q26nIb7VdHbVVTM?si=7CCClH3lQ-6QymBn2Uik-A"
+        },
+        {
+            title:        "Cigarettes",
+            release_date: "September 29, 2021",
+            info:         "by Douglas",
+            image_url:    "https://f4.bcbits.com/img/a1167568684_16.jpg",
+            html:         `<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=1452268740/size=small/bgcol=333333/linkcol=e99708/track=2141396974/transparent=true/" seamless><a href="https://amydouglaswhite.bandcamp.com/album/ashes-remix-ep">Ashes Remix EP by Douglas</a></iframe>`,
+            bandcamp:     "https://amydouglaswhite.bandcamp.com/track/cigarettes-xor-remix-2",
+            spotify:      "https://open.spotify.com/track/7plj97H1NAKSGzec8So6yP?si=2deacba814f74b33"
         },
         {
             title:        "Void",
